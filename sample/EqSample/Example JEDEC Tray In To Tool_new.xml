@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MapData>
+	<Layouts>
+		<Layout LayoutId="JEDEC TRAY" DefaultUnits="mm" TopLevel="true">
+			<Dimension X="1" Y="1" />
+			<ChildLayouts>
+				<ChildLayouts LayoutId="7.5x11.2mm 10x21=210" />
+			</ChildLayouts>
+		</Layout>
+		<Layout LayoutId="7.5x11.2mm 10x21=210" DefaultUnits="mm" TopLevel="false">
+			<Dimension X="21" Y="10" />
+		</Layout>
+	</Layouts>
+	<Substrates> 
+		<Substrate SubstrateType="JEDEC TRAY" SubstrateId="0066731025"/>
+	</Substrates>
+	<SubstrateMaps>
+		<SubstrateMap SubstrateType="JEDEC TRAY" SubstrateId="0066731025" LayoutSpecifier="JEDEC TRAY/7.5x11.2mm 10x21=210" Orientation="0">
+			<Overlay MapName="DeviceBinMap" MapVersion="1.0">
+				<BinCodeMap BinType="ASCII" NullBin="0" MapType="2DArray"> 
+					<BinDefinitions>  
+						<BinDefinition BinCode="." BinCount="30" BinDescription="Empty" /> 
+						<BinDefinition BinCode="X" BinCount="180" BinDescription="Present" /> 
+					</BinDefinitions>
+					<BinCode>...XXXXXXXXXXXXXXXXXX</BinCode>
+					<BinCode>...XXXXXXXXXXXXXXXXXX</BinCode>
+					<BinCode>...XXXXXXXXXXXXXXXXXX</BinCode>
+					<BinCode>...XXXXXXXXXXXXXXXXXX</BinCode>
+					<BinCode>...XXXXXXXXXXXXXXXXXX</BinCode>
+					<BinCode>...XXXXXXXXXXXXXXXXXX</BinCode>
+					<BinCode>...XXXXXXXXXXXXXXXXXX</BinCode>
+					<BinCode>...XXXXXXXXXXXXXXXXXX</BinCode>
+					<BinCode>...XXXXXXXXXXXXXXXXXX</BinCode>
+					<BinCode>...XXXXXXXXXXXXXXXXXX</BinCode>
+				</BinCodeMap>
+			</Overlay>
+		</SubstrateMap>
+	</SubstrateMaps>
+</MapData>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

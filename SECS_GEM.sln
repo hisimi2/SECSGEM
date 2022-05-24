@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SECS_GEM", "SECS_GEM\SECS_GEM.vcxproj", "{CE041F69-01EA-4700-A278-3B2F809AF3CE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EqSample", "sample\EqSample\EqSample.vcxproj", "{94F71495-F154-44CD-9C2F-0121972247E6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HostSample", "sample\HostSample\HostSample.vcxproj", "{F6298A71-D4AA-42F3-8C5C-F1F7732B896B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "샘플", "샘플", "{B2461A98-858E-410F-9663-B614E29C9447}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE041F69-01EA-4700-A278-3B2F809AF3CE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CE041F69-01EA-4700-A278-3B2F809AF3CE}.Debug|Win32.Build.0 = Debug|Win32
+		{CE041F69-01EA-4700-A278-3B2F809AF3CE}.Release|Win32.ActiveCfg = Release|Win32
+		{CE041F69-01EA-4700-A278-3B2F809AF3CE}.Release|Win32.Build.0 = Release|Win32
+		{94F71495-F154-44CD-9C2F-0121972247E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{94F71495-F154-44CD-9C2F-0121972247E6}.Debug|Win32.Build.0 = Debug|Win32
+		{94F71495-F154-44CD-9C2F-0121972247E6}.Release|Win32.ActiveCfg = Release|Win32
+		{94F71495-F154-44CD-9C2F-0121972247E6}.Release|Win32.Build.0 = Release|Win32
+		{F6298A71-D4AA-42F3-8C5C-F1F7732B896B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F6298A71-D4AA-42F3-8C5C-F1F7732B896B}.Debug|Win32.Build.0 = Debug|Win32
+		{F6298A71-D4AA-42F3-8C5C-F1F7732B896B}.Release|Win32.ActiveCfg = Release|Win32
+		{F6298A71-D4AA-42F3-8C5C-F1F7732B896B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94F71495-F154-44CD-9C2F-0121972247E6} = {B2461A98-858E-410F-9663-B614E29C9447}
+		{F6298A71-D4AA-42F3-8C5C-F1F7732B896B} = {B2461A98-858E-410F-9663-B614E29C9447}
+	EndGlobalSection
+EndGlobal
